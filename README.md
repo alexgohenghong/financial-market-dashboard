@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project simulates a real-world financial data workflow. It features an end-to-end analytics pipeline that extracts, transforms, and visualizes market data to deliver actionable business insights.
 
-🔗 **Live Dashboard:** [Insert Your Tableau Public Link Here]
+🔗 **Live Dashboard:** https://public.tableau.com/app/profile/goh.alex/viz/FinancialMarketIntelligenceDashboard_17760613395310/Dashboard1
 
 ## ⚙️ Data Architecture & Workflow
 1. **Data Extraction (ETL):** Automated historical stock data retrieval (AAPL, MSFT, TSLA) using **Python (yfinance)**.
