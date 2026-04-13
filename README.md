@@ -17,6 +17,6 @@ This project simulates a real-world financial data workflow. It features an end-
 - **KPI Tracking:** Centralized critical metrics (AVG, MAX, MIN prices) for rapid executive decision-making.
 
 ## 📷 Dashboard Preview
-![Dashboard Preview](dashboard/spgi_dashboard_preview.png)
+![Dashboard Preview](![Dashboard Preview](spgi_dashboard_preview.png))
 
 *Tech Stack: Python, SQL (SQLite), Tableau, Pandas, yfinance*
