@@ -1,3 +1,5 @@
+Designed to simulate real-world financial analytics workflows similar to industry practices.
+
 ## Live Dashboard
 View interactive dashboard here: https://public.tableau.com/app/profile/goh.alex/viz/FinancialMarketIntelligenceDashboard_17760613395310/Dashboard1
 
