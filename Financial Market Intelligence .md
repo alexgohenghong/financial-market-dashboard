@@ -1,22 +1,22 @@
-# Financial Market Intelligence Dashboard & Data Pipeline
+## Live Dashboard
+View interactive dashboard here: https://public.tableau.com/app/profile/goh.alex/viz/FinancialMarketIntelligenceDashboard_17760613395310/Dashboard1
 
-## 📌 Project Overview
-This project simulates a real-world financial data workflow. It features an end-to-end analytics pipeline that extracts, transforms, and visualizes market data to deliver actionable business insights.
+# Financial Market Intelligence Dashboard
 
-🔗 **Live Dashboard:** https://public.tableau.com/app/profile/goh.alex/viz/FinancialMarketIntelligenceDashboard_17760613395310/Dashboard1
+## Overview
+This project builds an end-to-end data pipeline to process financial market data and generate actionable insights.
 
-## ⚙️ Data Architecture & Workflow
-1. **Data Extraction (ETL):** Automated historical stock data retrieval (AAPL, MSFT, TSLA) using **Python (yfinance)**.
-2. **Data Transformation:** Performed data cleaning, missing value handling, and feature engineering (Moving Averages, Daily Returns) using **Pandas**.
-3. **SQL Analytics:** Stored transformed data into an **SQLite** database. Designed queries to aggregate KPIs, detect price volatility, and identify top-performing trading days.
-4. **Visualization:** Developed an interactive **Tableau** dashboard to present key financial metrics clearly to stakeholders.
+## Workflow
+- Data extraction using Yahoo Finance API
+- Data cleaning and transformation using Python (Pandas)
+- SQL queries for KPI aggregation and volatility detection
+- Feature engineering (returns, moving averages)
+- Visualization using Tableau
 
-## 📈 Key Business Insights Extracted
-- **Volatility Detection:** Identified high-risk trading periods using automated percentage return thresholds.
-- **Trend Reversals:** Highlighted market shifts by comparing short-term (MA7) and long-term (MA30) moving averages.
-- **KPI Tracking:** Centralized critical metrics (AVG, MAX, MIN prices) for rapid executive decision-making.
+## Key Insights
+- Identified high-volatility trading days using return thresholds (>3%)
+- Detected trend patterns using moving averages (MA7, MA30)
+- Provided data-driven insights for short-term risk monitoring
 
-## 📷 Dashboard Preview
-![Dashboard Preview](![Dashboard Preview](spgi_dashboard_preview.png))
-
-*Tech Stack: Python, SQL (SQLite), Tableau, Pandas, yfinance*
+## Business Impact
+This project simulates a real-world financial data workflow, transforming raw data into insights for decision-making and trend analysis.
